@@ -1,0 +1,87 @@
+================================================================================
+DRIVER AUDIO ACTIVITY ANALYSIS SUMMARY
+================================================================================
+
+Generated: 2026-02-09 08:55:07
+Total duration: 60.00 seconds
+Analysis windows: 119
+
+--------------------------------------------------------------------------------
+GROUND TRUTH ACTIVITIES
+--------------------------------------------------------------------------------
+  0.00s -   3.00s : silence
+  3.00s -   8.00s : ambient_noise
+  8.00s -  12.00s : speaking
+ 12.00s -  14.00s : yawning
+ 14.00s -  22.00s : music
+ 22.00s -  25.00s : ambient_noise
+ 25.00s -  25.50s : horn
+ 25.50s -  28.00s : ambient_noise
+ 28.00s -  33.00s : speaking
+ 33.00s -  37.00s : heavy_breathing
+ 37.00s -  39.00s : yawning
+ 39.00s -  45.00s : music
+ 45.00s -  50.00s : speaking
+ 50.00s -  53.00s : ambient_noise
+ 53.00s -  55.00s : yawning
+ 55.00s -  60.00s : silence
+
+--------------------------------------------------------------------------------
+DETECTED ACTIVITY DISTRIBUTION
+--------------------------------------------------------------------------------
+   ambient_noise       :  78 windows ( 65.5%)
+   silence             :  14 windows ( 11.8%)
+   speaking            :  12 windows ( 10.1%)
+   music               :   9 windows (  7.6%)
+   heavy_breathing     :   4 windows (  3.4%)
+   horn                :   2 windows (  1.7%)
+
+--------------------------------------------------------------------------------
+AUDIO FEATURE STATISTICS
+--------------------------------------------------------------------------------
+
+RMS Energy:
+   Mean: 0.0499
+   Max:  0.3322
+   Min:  0.0009
+
+Spectral Centroid:
+   Mean: 8916.15 Hz
+   Max:  11090.02 Hz
+
+Zero Crossing Rate:
+   Mean: 0.1483
+
+--------------------------------------------------------------------------------
+CLASSIFICATION INSIGHTS
+--------------------------------------------------------------------------------
+
+silence:
+   Ground truth: 8.00s
+   Detected in: 14 windows
+
+ambient_noise:
+   Ground truth: 13.50s
+   Detected in: 78 windows
+
+speaking:
+   Ground truth: 14.00s
+   Detected in: 12 windows
+
+yawning:
+   Ground truth: 6.00s
+   Detected in: 0 windows
+
+music:
+   Ground truth: 14.00s
+   Detected in: 9 windows
+
+horn:
+   Ground truth: 0.50s
+   Detected in: 2 windows
+
+heavy_breathing:
+   Ground truth: 4.00s
+   Detected in: 4 windows
+
+================================================================================
