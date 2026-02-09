@@ -1,0 +1,55 @@
+================================================================================
+DRIVER ACTIVITY ANALYSIS SUMMARY
+================================================================================
+
+Generated: 2026-02-09 08:59:53
+Total frames: 26056
+Frames with face: 26051 (100.0%)
+
+--------------------------------------------------------------------------------
+METRIC DISTRIBUTIONS
+--------------------------------------------------------------------------------
+
+a1. EYE STATE:
+   eyeClosed: 13560 frames (52.1%)
+   eyeOpen: 12491 frames (47.9%)
+
+a2. PUPIL POSITION:
+   center: 26027 frames (99.9%)
+   left: 13 frames (0.0%)
+   right: 11 frames (0.0%)
+
+a3. DRIVING STATUS:
+   distracted: 26050 frames (100.0%)
+   drowsy: 1 frames (0.0%)
+
+a4. HEAD ROTATION:
+   center: 17550 frames (67.4%)
+   45DegreeLeft: 8336 frames (32.0%)
+   45DegreeRight: 154 frames (0.6%)
+   overLeftShoulder: 7 frames (0.0%)
+   overRightShoulder: 4 frames (0.0%)
+
+a5. HEAD FRONT TILT:
+   extremeFrontTilt: 23009 frames (88.3%)
+   extremeBackTilt: 3041 frames (11.7%)
+   backTilt: 1 frames (0.0%)
+
+a6. HEAD SIDE TILT:
+   straight: 25816 frames (99.1%)
+   headTopLeft_NeckRight: 164 frames (0.6%)
+   headTopRight_NeckLeft: 71 frames (0.3%)
+
+--------------------------------------------------------------------------------
+STATISTICS
+--------------------------------------------------------------------------------
+
+Average Eye Aspect Ratio: 0.217
+Average Blink Rate: 56.2 per minute
+
+Head Pose Angles (average):
+   Yaw: 9.99°
+   Pitch: 133.45°
+   Roll: -4.43°
+
+================================================================================
